@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.title{
+   text-align: center;
+
+}
+.item_list{
+    display: flex;
+    text-align: center;
+
+
+}
+
+.p1{
+color: orange;
+}
+
+.item{
+background-image: url(icon-4.png);
+background-repeat: no-repeat ;
+background-position: center;
+    position: relative;
+left: 200px;
+    background-color:white;
+text-align: center;
+height: 500px;
+width: 300px;
+padding: 0 30px;
+margin: 40px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.index{
+    background-color: white;
+    position: absolute;
+    top: 280px;
+    right: -31px;
+    left: -31px;
+    width:360px ;
+    height: 250px;
+   border: 2px solid rgba(168, 166, 166, 0.562);
+    z-index: -1;
+    transition: all 1s ease-in-out;
+}
+
+.item:hover .index{
+    background-color: orange;
+}
+
+.item p{
+    color: gray;
+}
+.item button{
+    width: 100px;
+    height: 50px;
+    border: 3px solid lightgray;
+    border-radius: 3px ;
+    background-color: white;
+    margin-top: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.item button:hover{
+    background-color: orange;
+    color: white;
+width: 150px;
+transition:all .5s ease ;
+}
+.item ul{
+    list-style-image: url(list_icon.png);
+
+}
+
+.conteiner2{
+    text-align: center;
+}
+.conteiner2 p{
+    color: orange;
+}
+.box1 p{
+    color: lightslategray;
+    text-align: justify;
+}
+.covercontent{
+    display: flex;
+    flex-direction: row;
+   margin:40px;
+
+}
+.box1 img{
+   width: 100%;
+}
+.box1{
+    margin: 30px;
+    width: 300px;
+    position: relative;
+    left: 170px;
+    bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.box1 h2{
+    color: black;
+}
+.box1 a{
+    text-decoration: none;
+}
+
+
+.read{
+    color: black;
+    text-align:left ;
+    padding: 5px;
+}
+.read:hover{
+    color: orange;
+
+}
+.bottem{
+    display: flex ;
+    justify-content: flex-start;
+
+}
+.svg{
+    width: 20px;
+    transition: all .5s ease;
+}
+
+.bottem:hover.svg{
+    width: 20px;
+    padding: 5px;
+    background-color: orange;
+}
+.adminsvg{
+    width: 10px;
+    fill: orange;
+}
+.detasvg{
+    width: 10px;
+    fill: orange;
+}
+.admin2{
+    display: flex;
+    padding: 5px;
+}
+.deta{
+    display: flex;
+    padding: 5px;
+}
+.admin{
+    display: flex;
+    
+}
+.deatail{
+    padding: 15px;
+}
+
+.imageBox{
+    position: relative;
+}
+
+.imageBox .bac{
+    width: 100%;
+    height: 100%;
+}
+/* -------------------------- */
+.footer-container{
+    position: relative;
+    background-color: #26282e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+}
+.hight{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eb7328;
+    height: 90px;
+    width: 1000px;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bottmn{
+    display: flex;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+.bright{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    /* background-color: blue; */
+    width: 70%;
+}
+.bright1 , .bright2 , .bright3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.bright ul{
+    list-style-type: none;
+}
+.bright a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.bleft{
+    color: white;
+    /* background-color: red; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.bright1 h4 , .bright2 h4 , .bright3 h4{
+    color: white;
+    font-size:25px;
+    font-weight: bold; 
+
+}
+
+.conteinerf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #26282e;
+    padding: 80px 0;
+    background-image: url("icon-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bleft p{
+    font-size:larger ;
+    text-align: justify;
+    font-size: 25px;
+}
+.hleft p{
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}
+.hright input{
+    width: 300px;
+    height: 50px;
+    border: 0;
+}
+.hright .sub{
+width: 200px;
+height: 50px;
+margin: 5px;
+background-color: #26282e;
+color: white;
+}
+.hright .sub:hover{
+    background-color: white;
+    color:#26282e ;
+    transition: all 0.5s ease-in;
+}
+
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: gray;
+    margin: 5px 0;
+}
+.pfoot{
+    color: white;
+    background-color: #26282e;
+
+}
+.line-border{
+    width: 1px;
+    height: 20px;
+    background-color: gray;
+    margin: 0 10px;
+}
+.Privacy{
+    display: flex;
+   align-items: center;
+   justify-content: flex-start;
+    padding: 0 70px;
+    width: 100%;
+}
+
+/* ------------------------------ */
+.icon1 svg{
+    width: 30px;
+    fill: #eb7328;
+    margin-top: 20px;
+    display: inline-block;
+}
+.content_container{
+    background-color: #f2efeb;
+    display: flex;
+    position: relative;
+}
+.cont_left{
+    position: absolute;
+    background-color: white;
+    border-radius: 0 62px 0 62px;
+    margin: 288px 159px;
+    padding: 30px;
+    
+}
+.content_right img{
+    position: relative;
+    left: 668px;
+}
+.cont_left .p1{
+    color: #eb7328;
+}
+.cont_left  h1{
+font-size: 30PX;
+}
+.cont_left.p2{
+    font-size: 10px;
+}
+.cont_left a{
+    color: black;
+    text-decoration: none;
+    font-size: xx-large;
+}
+.icon1{
+    display: flex;
+}
+.cont_left a:hover{
+    color: #eb7328;
+}
+.imgl{
+    display: flex;
+    position: absolute;
+    margin: -172px  -229px;
+}
+.im2{
+    margin:  -3px -24px ;
+}
+.shape{
+    position: relative;
+}
+.im3{
+   
+    margin: 30px 40px;
+    
+}
+.shape1{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+
+.shape2{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+}
